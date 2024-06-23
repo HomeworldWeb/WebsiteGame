@@ -1,0 +1,21 @@
+body{margin:0px;}
+table{width:100%;}
+table, th, td{border:solid; border-collapse:collapse; background:linen;}
+a{transition-property:all; transition-duration:150ms; transition-timing-function:ease-in-out; positive:relative; background:linen; color:green;}
+#cell1:hover #hide1{top:+2px; color:linen;}
+.reveal1{display:none; padding:15px;}
+#cell1:hover p.reveal1{display:block;}
+#cell1:hover a.reveal1{display:inline}
+
+.cell2:hover{transform:rotateY(180deg)}
+a.hidden{text-decoration:none; color:black;}
+
+#stretch{width:200px; height:100px; transition-property:width; transition-duration:0.3s; background:white;}
+#stretch:hover{width:400px;}
+#a3{background:white; float:right;}
+#a3:hover{float:left;}
+
+#spin{width:400px; height:100px; background:orange; transition-duration:360s;}
+#spin:hover{-webkit-transform:rotateZ(-50000deg); 
+-ms-transform:rotateZ(-50000deg); transform:rotateZ(-50000deg);}
+#a4{background:orange; float:right;}
